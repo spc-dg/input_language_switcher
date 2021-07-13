@@ -23,15 +23,4 @@ The hotkeys are contained in the three lines similar to this one:
   
 
 You can edit the combinations using the pynput keyboard documentation located here: https://pynput.readthedocs.io/en/latest/keyboard.html 
-Alternatively, you can use virtual key codes instead of key names, you can get vk codes by running this short code in a terminal:
-
-
-  from pynput import keyboard
-
-  def on_press(key):
-    if hasattr(key, 'vk'):
-      print('You entered a key with vk code: ', key.vk)
-
-  with keyboard.Listener(on_press = on_press) as listener:
-    listener.join()
-    
+Alternatively, you can use virtual key codes instead of key names, you can get vk codes by running the code in vk_listener.
