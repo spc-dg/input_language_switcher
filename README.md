@@ -14,7 +14,7 @@ The functions to execute are contained in lines similar to this one:
   subprocess.run(["powershell", "-Command", "Set-WinUserLanguageList -Force 'en-US'"])
   
 
-Currently it is configured to execute a powershell command to set up an input language.
+Currently it is configured to execute a powershell command setting an input language.
 
 
 The hotkeys are contained in lines similar to this one:
