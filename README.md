@@ -26,4 +26,4 @@ The hotkeys are contained in lines similar to this one:
 You can edit the combinations using the pynput keyboard documentation located here: https://pynput.readthedocs.io/en/latest/keyboard.html 
 Alternatively, you can use virtual key codes instead of key names, you can get vk codes by running the code in vk_listener.
 
-Make sure to configure .spec file for compiling the code in pyinstaller to avoid import errors, I've included a .spec file I used for reference.
+Make sure to configure .spec file for compiling the code in pyinstaller to avoid import errors, I've included a .spec file I used for reference. After you do that, run pyinstaller by referencing the name of the spec file, NOT your script. Like this: pyinstaller --onefile filename.spec
