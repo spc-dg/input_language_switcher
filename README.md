@@ -16,6 +16,7 @@ The functions to execute are contained in lines similar to this one:
 
 Currently it is configured to execute a powershell command to set up an input language.
 
+
 The hotkeys are contained in the three lines similar to this one:
 
 
