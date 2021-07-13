@@ -4,6 +4,7 @@ A minimal script wrote in python to switch between languages
 A thank you to the autors of these guides:
 
 https://nitratine.net/blog/post/how-to-make-hotkeys-in-python/
+
 https://www.phillipsj.net/posts/executing-powershell-from-python/
 
 
