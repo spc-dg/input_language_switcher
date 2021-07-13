@@ -1,5 +1,5 @@
 # input_language_switcher
-A minimal script wrote in python to switch between languages
+A minimal script to switch between languages wrote in python. 
 
 A thank you to the autors of these guides:
 
